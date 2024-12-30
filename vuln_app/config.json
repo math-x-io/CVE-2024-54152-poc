@@ -1,0 +1,14 @@
+{
+    "name": "vulnerable-app",
+    "version": "1.0.0",
+    "description": "A vulnerable app demonstrating the CVE-2024-54152",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "angular-expressions": "1.4.2",
+      "express": "^4.18.2"
+    }
+  }
+  
